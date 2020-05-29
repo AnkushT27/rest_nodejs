@@ -15,6 +15,10 @@ module.exports = sql.define('user',{
         type:Sequelize.STRING,
         allowNull:false
     },
+    name:{
+        type:Sequelize.STRING,
+        allowNull:false
+    },
     status:{
         type:Sequelize.STRING,
         defaultValue:'First Status'
